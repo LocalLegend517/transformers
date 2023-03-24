@@ -1,4 +1,4 @@
-FROM nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04
+FROM nvidia/cuda:11.2.2-cudnn8-devel-ubuntu20.04@sha256:da7c73bed9b31ea4cfbeb9640b80c44f41e9338b495917c2c6efd185bc274cf9
 LABEL maintainer="Hugging Face"
 
 ARG DEBIAN_FRONTEND=noninteractive
