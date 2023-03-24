@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:slim
+FROM google/cloud-sdk:slim@sha256:125e1ff7ab2507c485cead6f5f2fd0f368a7507d8da692089bfa4f3b2ece1185
 
 # Build args.
 ARG GITHUB_REF=refs/heads/main
