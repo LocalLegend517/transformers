@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
+FROM nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04@sha256:8ad8e6331ba04bf26d82bad34e80c4aeb8b2366d958bd9a38fd06d74027c43d4
 LABEL maintainer="Hugging Face"
 LABEL repository="transformers"
 
