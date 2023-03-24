@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8@sha256:df8ba74ab47f765a831e84d72d804c27c67e0058eb9d46f0bc91d2451ba128f3
 LABEL maintainer="Hugging Face"
 
 RUN apt update
